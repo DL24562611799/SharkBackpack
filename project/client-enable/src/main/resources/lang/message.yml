@@ -1,0 +1,26 @@
+
+COMMAND_RELOAD: '[i] &6插件配置已重载!'
+
+COMMAND_NO_PLAYER: '[i] &6错误的参数，玩家 &a{0} &6不存在!'
+COMMAND_NO_PERMISSION: '[i] &c你没有使用权限，需要拥有 {0} 权限才能使用!'
+COMMAND_ONLY_PLAYER: '[i] &c控制台无法使用执行指令，必须是一位玩家来执行指令!'
+
+COMMAND_HELP_SHOW: /sharkbackpack show - 展示自己背包
+COMMAND_HELP_OPEN: /sharkbackpack open [玩家] - 打开某玩家的展示背包
+COMMAND_HELP_RELOAD: /sharkbackpack reload - 重载配置
+
+BACKPACK_LOADING: "[i] 当前正在加载背包数据，请等待加载完毕"
+SHOW_COOLDOWN: "[i] 展示冷却中，当前还剩 {0} 秒"
+SHOW_MESSAGE: |-
+  [
+      {"text":"[i] &6玩家 &a{0} &6展示了自己的背包 "},
+      {"text":"&a[&8查看背包&a]",
+          "clickEvent":{
+              "action":"run_command",
+              "value":"/sharkbackpack open {1}"
+          },
+          "hoverEvent":{
+              "action":"show_text",
+              "value":"&8查看背包"}
+          }
+  ]

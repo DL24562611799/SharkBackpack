@@ -1,0 +1,7 @@
+name: SharkBackpack
+main: sharks.customization.sharkbackpack.bukkitlib.BukkitPlugin
+version: 1.0.1-bate
+author: shark
+depend: []
+softdepend:
+  - MsLibrary

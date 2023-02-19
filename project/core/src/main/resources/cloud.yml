@@ -1,0 +1,6 @@
+Name: SharkBackpack
+Version: 1.0.1-bate
+EntryClass: sharks.customization.sharkbackpack.PluginLoaderKt
+EntryPoint: init
+KeepClasses:
+  - sharks/customization/sharkbackpack/.*
